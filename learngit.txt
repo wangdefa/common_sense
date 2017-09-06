@@ -17,3 +17,11 @@
    git clone git@github.com:michaelliao/gitskills.git # 克隆远程某用户的某仓库到本地
    git pull --rebase origin master # 当他人提交改动到远程仓库后，若此时自己也要提交改动，必须先将远程仓库的改动拉下来，然后与本地库进行合并，即为这条指令
 
+3. manage branck=h
+   git checkout -b branch_name # 创建新分支，并且切换到新分支
+   git branch branch_name # 创建新的分支
+   git checkout branch_name # 切换到新的分支
+   git branch # 查看当前分支
+   git merge branch_name # 合并指定分支到当前分支
+   git branch -d branch_name # 删除指定的分支
+# test
