@@ -14,4 +14,6 @@
    git remote add origin git@github.com:github_user_name/learngit.git  # 关联到远程库，远程库的名字为origin
    git push -u origin master  # 把本地库的所有内容提交到远程库，即把master分支推送到远程，并且通过-u把本地库与远程库关联起来
    git push origin master  # 将本地的最新修改提交到github
+   git clone git@github.com:michaelliao/gitskills.git # 克隆远程某用户的某仓库到本地
+   git pull --rebase origin master # 当他人提交改动到远程仓库后，若此时自己也要提交改动，必须先将远程仓库的改动拉下来，然后与本地库进行合并，即为这条指令
 
