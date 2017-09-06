@@ -7,3 +7,11 @@
    git log  # 查看提交的log（已经同步到远程仓库的已经本地分支的）
    git reset --hard version_id # 回退版本到指定版本
    git reflog # 查看命令历史
+   git checkout -- file_name # 直接丢弃工作区的修改
+   git rm file_name # 删除指定文件
+
+2. remote repo
+   git remote add origin git@github.com:github_user_name/learngit.git  # 关联到远程库，远程库的名字为origin
+   git push -u origin master  # 把本地库的所有内容提交到远程库，即把master分支推送到远程，并且通过-u把本地库与远程库关联起来
+   git push origin master  # 将本地的最新修改提交到github
+
