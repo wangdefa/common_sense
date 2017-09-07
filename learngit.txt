@@ -25,3 +25,10 @@
    git merge branch_name # 合并指定分支到当前分支
    git branch -d branch_name # 删除指定的分支
    git log --graph  # 查看提交日志，以图展示
+   
+   当前工作还没做完就要去修复bug：
+   git stash # 把当前的工作区存储起来，因为还没有改完，打算改完再提交
+   git stash pop # 把存储的工作区恢复出来
+   git stash list  # 查看储存的工作区列表
+   git branch -D branch_name # 强行删除没有merge的分支
+
